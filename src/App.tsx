@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from "react";
 
-// Type for each drum pad
 interface PadType {
   keyCode: number;
   key: string;
@@ -78,7 +77,6 @@ export default function DrumMachine() {
           </div>
         </div>
 
-        {/* Display */}
         <div className="flex flex-col gap-4">
           <div className="rounded-2xl border border-slate-300/50 bg-white/80 p-5 shadow-sm backdrop-blur">
             <div className="text-sm uppercase tracking-wide text-slate-500">Display</div>
